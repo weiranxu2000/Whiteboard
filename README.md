@@ -31,7 +31,7 @@ java -jar JoinWhiteboard.jar localhost 1099 user1
 
 ## **实现细节**
 
-### **`server` **
+### `server` 
 
 该包包含三个类：
 
@@ -53,7 +53,7 @@ java -jar JoinWhiteboard.jar localhost 1099 user1
 
 3. **WhiteboardServer**：服务器的主函数类，接收一个参数（端口号），使用 RMI 创建注册表并开放服务。
 
-### **`client` **
+### `client` 
 
 该包包含五个类：
 
@@ -75,7 +75,7 @@ java -jar JoinWhiteboard.jar localhost 1099 user1
    - 检查用户名是否唯一
    - 创建 WhiteboardClient 对象并设置 isManager = false
 
-### **`shape` **
+### `shape` 
 
 该包包含八个类：
 
